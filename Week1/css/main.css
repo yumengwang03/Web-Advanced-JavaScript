@@ -64,12 +64,17 @@ ul li {
 	height:auto;
 }
 
-#brain {
-	width:40%;
-	height:auto;
+img.brain {
+	width:auto;
+	height:500px;
 }
 
-#eyeball {
-	width:40%;
-	height:auto;
+img.eyeball {
+	width:auto;
+	height:500px;
+}
+
+p1.journal1 {
+	color:#616161;
+	font-size:16pt;
 }
