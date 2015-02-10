@@ -1,0 +1,23 @@
+
+
+p.grey {
+	color:#888;
+}
+
+p#big-letters {
+
+	font-size:18pt;
+}
+
+
+body{
+	background:#fafafa;
+}
+
+#profile-picture {
+	width:300px;
+	height:auto;
+	margin:50px auto;
+	display:block;
+	border-radius:150px;
+}

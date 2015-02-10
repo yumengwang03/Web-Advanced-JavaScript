@@ -1,0 +1,59 @@
+* {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 80px;
+  font-weight: bold;
+  color: gray;
+  border-bottom: 12px solid black;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ul li.css a#asd;{
+
+}
+
+
+#html h2 {
+  /* means inside the html, look for h2 */
+}
+
+ul.table-of-contents {
+  background: gray;
+  /* a dot means looking for a class */
+}
+
+
+section.css h2{
+  color: purple;
+  /*look for every element inside css that is h2*/
+}
+
+.css h2.notcss{
+  color: green;
+  /*things that are inside the css, inside h2 and also inside notcss*/
+}
+
+/*
+element (h1) {
+  attribute (color): value (grey);
+}
+
+element. class (declare the class) {
+  
+}
+
+element#id (e.g. h1#header) ('id' is a class)
+
+green is class
+red is element
+
+*/
+

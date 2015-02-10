@@ -1,0 +1,61 @@
+body {
+  width: 720px;
+  margin: 0 auto;
+  /*border: 1px solid gray;*/
+  padding: 0 30px;
+}
+
+h1 {
+  font-family: 'Helvetica';
+  font-size: 72px;
+  color: black;
+  border-bottom: 12px solid black;
+  padding-bottom: 8px; /*underline*/
+}
+
+h1:hover{
+  color: orange; /*when you move the mouse on the letter */
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-size: 40px;
+  color: red;
+  border-bottom: 1px solid #999;
+}
+
+h3 {
+  font-family: 'Helvetica';
+  font-size: 26px;
+}
+
+p {
+  font-family: 'Georgia';
+  font-size: 18px;
+}
+
+a {
+  color: #42c893;
+  text-decoration: none;
+}
+
+section {
+  /*border: 1px solid red;*/
+  margin: 30px 0;
+}
+
+#javascript a {
+  width: 1px;
+}
+
+.table-of-contents {
+  background-color: #ddd;
+  border: 1px solid #999;
+  padding: 20px;
+  list-style-type: decimal;
+  width: 150px;
+}
+
+.table-of-contents li {
+  margin-left: 20px;
+}
