@@ -41,7 +41,35 @@ ul li {
 }
 
 #me {
-	width:150px;
+	width:200px;
 	height:auto;
-	border-radius:75px;
+	border-radius:100px;
+}
+
+#dt1 {
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+	height:auto;
+
+}
+
+#dt2 {
+	width:60%;
+	height:auto;
+}
+
+#dt3 {
+	width:60%;
+	height:auto;
+}
+
+#brain {
+	width:40%;
+	height:auto;
+}
+
+#eyeball {
+	width:40%;
+	height:auto;
 }
