@@ -10,6 +10,7 @@ header {
 	padding: 0px;
 	margin: 20px;
 }
+
 header h1 {
 	font-size: 4em;
 	color: #FFFFFF;
@@ -20,14 +21,55 @@ header h2 {
 	color: #FFFFFF;
 }
 
+.text {
+	color:#B1B1B1;
+	font-size: 1.4em;
+	margin: 100px;
+}
+
 #headerimg {
 	width:100%;
 	height:auto;
 }
 
-#menu li {
+#menu li  {
 	display: inline;
-	font-size: 1.4em;
 	color: #22A7FF;
+	font-size: 1.4em;	
 	margin: 5%;
+}
+
+#menu a  {
+	color: #22A7FF;
+	text-decoration: none;
+}
+
+#menu a.nav:hover, a.nav.active {
+	color:#FF8B1F;
+}
+
+#profile {
+	width: 40%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#pictures img {
+	width: 60%;
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#examples img {
+	width: 60%;
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
 }
