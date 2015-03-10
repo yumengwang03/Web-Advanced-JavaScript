@@ -1,0 +1,125 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	background-color: #FAFAFA;
+	font-family: Futura, Arial;
+/*	overflow: hidden;*/
+}
+
+.title1 h1{
+	text-align: center;
+	padding: 30px;
+	font-size: 2.4em;
+	color: #5C5C5C;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline;
+	padding: 0px 4%;
+	color: #5DA9F0;
+	font-size: 2em;
+}
+
+.menu li:hover {
+	color: #A8A8A8;
+}
+
+.content{
+	margin: 5%;
+}
+
+.box {
+	display: inline-block;
+	width: 22%;
+	height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	margin: 5.5%;
+	position: relative;
+
+}
+
+.info1 {
+	opacity: 0;
+    position: absolute;
+	top:296px; 
+    left: 9.9%; 
+    color: #FAFAFA;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 101px 33px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+.info1:hover {
+	opacity: 100;
+	transition: opacity 0.3s;
+}
+
+.info2 {
+	opacity: 0;
+    position: absolute;
+	top: 296px; 
+    left: 39.9%; 
+    color: #FAFAFA;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 101px 36px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+.info2:hover {
+	opacity: 100;
+	transition: opacity 0.3s;
+}
+
+.info3 {
+	opacity: 0;
+    position: absolute;
+	top: 296px; 
+    left: 70%; 
+    color: #FAFAFA;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 101px 61px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+.info3:hover {
+	opacity: 100;
+	transition: opacity 0.3s;
+}
+
+.info4 {
+	opacity: 0;
+    position: absolute;
+	top: 727px; 
+    left: 9.9%; 
+    color: #FAFAFA;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 122px 64px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+.info4:hover {
+	opacity: 100;
+	transition: opacity 0.3s;
+}
+
+footer {
+	text-align: center;
+}
+

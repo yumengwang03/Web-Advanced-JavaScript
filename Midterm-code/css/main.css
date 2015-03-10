@@ -1,0 +1,199 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	background-color: #FAFAFA;
+	font-family: Futura, Arial;
+/*	overflow: hidden;*/
+}
+
+.sidebar {
+	width: 30%;
+	height: 100%;
+	position: fixed;
+}
+
+.sidebar_container {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.sidebar_container h1 {
+	text-align: center;
+	padding-bottom: 5%;
+	color: #5C5C5C;
+}
+
+.shadow{
+	display: block;
+	opacity: 0;
+	transition: opacity 0.2s;
+	position: relative;
+	width: 55%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shadow:hover {
+	opacity: 0.7; 
+	transition: opacity 0.2s;
+}
+
+.main_container {
+	margin-left: 30%;
+	margin-top: 25px;
+}
+
+.blue {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+}
+
+.compass {
+	display:inline;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.orange {
+	display:inline;
+	margin-right: auto;
+	margin-left: 13%;
+	margin-bottom: 18%;
+}
+
+
+.green {
+	display:inline;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 18%;
+}
+
+.purple {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.arrow {
+	width: 12%;
+	height: auto;
+	transition: width 0.2s;
+}
+
+.arrow:hover {
+	width: 15%;
+	transition: width 0.2s;
+}
+
+.direction {
+	position: fixed;
+	background-color: teal;
+	width: 10%;
+	height: auto;
+	
+}
+
+.title1 h1{
+	text-align: center;
+	padding: 30px;
+	font-size: 2.4em;
+	color: #5C5C5C;
+}
+
+.menu_orange {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.menu_orange a {
+	text-decoration: none;
+}
+
+.menu_orange li {
+	display: inline;
+	padding: 0px 4%;
+	color: #FF9100;
+	font-size: 2em;
+}
+
+.menu_orange li:hover {
+	color: #A8A8A8;
+}
+
+.menu_green {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.menu_green a {
+	text-decoration: none;
+}
+
+.menu_green li {
+	display: inline;
+	padding: 0px 4%;
+	color: #46E446;
+	font-size: 2em;
+}
+
+.menu_green li:hover {
+	color: #A8A8A8;
+}
+
+.menu_purple {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.menu_purple a {
+	text-decoration: none;
+}
+
+.menu_purple li {
+	display: inline;
+	padding: 0px 4%;
+	color: #9D26EC;
+	font-size: 2em;
+}
+
+.menu_purple li:hover {
+	color: #A8A8A8;
+}
+
+.intro {
+	padding: 30px 10%;
+}
+
+.resume img {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project_pictures img {
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+.explain p {
+	padding: 30px 10%;
+}
+
+footer {
+	text-align: center;
+}
+
