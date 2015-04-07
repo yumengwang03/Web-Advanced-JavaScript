@@ -1,8 +1,8 @@
 //positions
 var posX = $(window).width()/2;
 var posY = $(window).height()/2;
-var leftPosX = 100;
-var rightPosX = $(window).width() - 130;
+var leftPosX = 0;
+var rightPosX = $(window).width() - 30;
 var borderPosX = $(window).width()/2 - 3;
 var leftPosY = 0;
 var rightPosY = 0;
