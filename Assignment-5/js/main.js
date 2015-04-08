@@ -20,24 +20,25 @@ var border = $('.border');
 var leftScoreElement = $('.score-left');
 var rightScoreElement = $('.score-right');
 
+
+//keyPressed (put it outside of update)
+$(document).keydown(function(event) {
+  if(event.keyCode == 40) {
+    console.log(event.keyCode);
+    rightPosY += 10;
+  } else if(event.keyCode == 38) {
+  	rightPosY -= 10;
+  } else if(event.keyCode == 37) {
+  	leftPosY -= 10;
+  } else if(event.keyCode == 39) {
+  	leftPosY += 10;
+  }
+});
+
 function update() {
 	posX += velX;
 	posY += velY;
 
-
-//keyPressed
-$(document).keydown(function(event) {
-  if(event.keyCode == 40) {
-    console.log(event.keyCode);
-    rightPosY += 0.1;
-  } else if(event.keyCode == 38) {
-  	rightPosY -= 0.1;
-  } else if(event.keyCode == 37) {
-  	leftPosY -= 0.1;
-  } else if(event.keyCode == 39) {
-  	leftPosY += 0.1;
-  }
-});
 
 	checkBoundaries();
 
